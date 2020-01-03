@@ -26,8 +26,9 @@ Display new values of Num1 and Num2
 		
 		System.out.println("n1 = " + num1  + " \nn2 = " + num2  );
 		
-		num1=num2;
-		num2=88;
+		int temp = num1;
+		num1 = num2;
+		num2 = temp;
 		
 		System.out.println("\n\n\nn1 = " + num1 + " \nn2 = " + num2  );
 		
